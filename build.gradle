@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'br.com.iterasys'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+//ppoihhggkkkokkk
+
+dependencies {
+    implementation 'org.testng:testng:7.1.0'
+
+
+// https://mvnrepository.com/artifact/org.testng/testng
+    //oi nngggkk
+    //ooiiooiijjll
+    testImplementation group: 'org.testng', name: 'testng', version: '7.1.0'
+
+// https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.5.1'
+
+
+}
+test{
+    useTestNG()
+
+}
